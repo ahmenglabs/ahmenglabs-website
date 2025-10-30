@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from './assets/logo.png';
 
 function App() {
   return (
     <div>
-      <img src="/src/assets/logo.png" alt="Logo" />
+      <img src={logo} alt="Logo" />
       <p>Under Development</p>
     </div>
   );
